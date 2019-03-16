@@ -22,6 +22,10 @@
 		32029EC7223D791700186885 /* YBTextPicker_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC4223D791600186885 /* YBTextPicker_2.gif */; };
 		32029EC8223D791700186885 /* YBTextPicker_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC5223D791600186885 /* YBTextPicker_3.gif */; };
 		32029EC9223D791700186885 /* YBTextPicker_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC6223D791700186885 /* YBTextPicker_1.gif */; };
+		32029ECB223D855300186885 /* red_ic_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ECA223D855300186885 /* red_ic_unchecked.png */; };
+		32029ECD223D855C00186885 /* red_ic_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ECC223D855C00186885 /* red_ic_checked.png */; };
+		32029ECF223D858200186885 /* green_ic_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ECE223D858200186885 /* green_ic_checked.png */; };
+		32029ED1223D859500186885 /* green_ic_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ED0223D859500186885 /* green_ic_unchecked.png */; };
 		32043657223AC7A90043C1A6 /* YBTextPickerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32043656223AC7A90043C1A6 /* YBTextPickerDataModel.swift */; };
 		32894727223C12C200312E83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32894726223C12C200312E83 /* README.md */; };
 		32894729223C12DE00312E83 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 32894728223C12DE00312E83 /* LICENCE */; };
@@ -46,6 +50,10 @@
 		32029EC4223D791600186885 /* YBTextPicker_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_2.gif; sourceTree = "<group>"; };
 		32029EC5223D791600186885 /* YBTextPicker_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_3.gif; sourceTree = "<group>"; };
 		32029EC6223D791700186885 /* YBTextPicker_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_1.gif; sourceTree = "<group>"; };
+		32029ECA223D855300186885 /* red_ic_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_ic_unchecked.png; sourceTree = "<group>"; };
+		32029ECC223D855C00186885 /* red_ic_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_ic_checked.png; sourceTree = "<group>"; };
+		32029ECE223D858200186885 /* green_ic_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_ic_checked.png; sourceTree = "<group>"; };
+		32029ED0223D859500186885 /* green_ic_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_ic_unchecked.png; sourceTree = "<group>"; };
 		32043656223AC7A90043C1A6 /* YBTextPickerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBTextPickerDataModel.swift; sourceTree = "<group>"; };
 		32894726223C12C200312E83 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32894728223C12DE00312E83 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
@@ -134,6 +142,10 @@
 				32029EC6223D791700186885 /* YBTextPicker_1.gif */,
 				32029EC4223D791600186885 /* YBTextPicker_2.gif */,
 				32029EC5223D791600186885 /* YBTextPicker_3.gif */,
+				32029ECE223D858200186885 /* green_ic_checked.png */,
+				32029ED0223D859500186885 /* green_ic_unchecked.png */,
+				32029ECC223D855C00186885 /* red_ic_checked.png */,
+				32029ECA223D855300186885 /* red_ic_unchecked.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -201,14 +213,18 @@
 				32894729223C12DE00312E83 /* LICENCE in Resources */,
 				0807D70F20E8EC0E0052CFEA /* LaunchScreen.storyboard in Resources */,
 				32029EC9223D791700186885 /* YBTextPicker_1.gif in Resources */,
+				32029ECD223D855C00186885 /* red_ic_checked.png in Resources */,
 				0807D70C20E8EC0E0052CFEA /* Assets.xcassets in Resources */,
 				0807D72220E8F0200052CFEA /* YBTextPickerCell.xib in Resources */,
 				0807D74220E925630052CFEA /* YBTextPicker_checked.png in Resources */,
+				32029ECF223D858200186885 /* green_ic_checked.png in Resources */,
 				0807D70A20E8EC0C0052CFEA /* Main.storyboard in Resources */,
 				32029EC3223D791100186885 /* YBTextPicker_Logo.png in Resources */,
 				0807D71D20E8ED160052CFEA /* YBTextPicker.xib in Resources */,
 				32894727223C12C200312E83 /* README.md in Resources */,
+				32029ECB223D855300186885 /* red_ic_unchecked.png in Resources */,
 				0807D73E20E91D980052CFEA /* YBTextPicker_unchecked.png in Resources */,
+				32029ED1223D859500186885 /* green_ic_unchecked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

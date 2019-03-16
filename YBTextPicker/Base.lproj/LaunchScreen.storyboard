@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +17,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egW-UG-wx1">
+                                <rect key="frame" x="43.5" y="265.5" width="288" height="136"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YBTextPicker_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXH-px-J3I">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="136"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="288" id="Bdo-u1-8yt"/>
+                                            <constraint firstAttribute="height" constant="136" id="uhy-0o-JvG"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="CXH-px-J3I" firstAttribute="centerX" secondItem="egW-UG-wx1" secondAttribute="centerX" id="DCo-dJ-SA7"/>
+                                    <constraint firstAttribute="height" constant="136" id="IZF-YG-9D8"/>
+                                    <constraint firstItem="CXH-px-J3I" firstAttribute="centerY" secondItem="egW-UG-wx1" secondAttribute="centerY" id="gOh-gF-aDw"/>
+                                    <constraint firstAttribute="width" constant="288" id="lg2-3B-Ldy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="egW-UG-wx1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Brh-Rn-nRT"/>
+                            <constraint firstItem="egW-UG-wx1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xve-zz-fei"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +51,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="YBTextPicker_Logo.png" width="3997" height="1024"/>
+    </resources>
 </document>
