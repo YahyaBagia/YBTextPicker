@@ -12,6 +12,20 @@
 		0807D70A20E8EC0C0052CFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0807D70820E8EC0C0052CFEA /* Main.storyboard */; };
 		0807D70C20E8EC0E0052CFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0807D70B20E8EC0E0052CFEA /* Assets.xcassets */; };
 		0807D70F20E8EC0E0052CFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0807D70D20E8EC0E0052CFEA /* LaunchScreen.storyboard */; };
+		0807D71C20E8ED160052CFEA /* YBTextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807D71A20E8ED160052CFEA /* YBTextPicker.swift */; };
+		0807D71D20E8ED160052CFEA /* YBTextPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0807D71B20E8ED160052CFEA /* YBTextPicker.xib */; };
+		0807D72120E8F0200052CFEA /* YBTextPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0807D71F20E8F0200052CFEA /* YBTextPickerCell.swift */; };
+		0807D72220E8F0200052CFEA /* YBTextPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0807D72020E8F0200052CFEA /* YBTextPickerCell.xib */; };
+		0807D73E20E91D980052CFEA /* YBTextPicker_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0807D73C20E91D980052CFEA /* YBTextPicker_unchecked.png */; };
+		0807D74220E925630052CFEA /* YBTextPicker_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0807D74120E925630052CFEA /* YBTextPicker_checked.png */; };
+		32029EC3223D791100186885 /* YBTextPicker_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC2223D791000186885 /* YBTextPicker_Logo.png */; };
+		32029EC7223D791700186885 /* YBTextPicker_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC4223D791600186885 /* YBTextPicker_2.gif */; };
+		32029EC8223D791700186885 /* YBTextPicker_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC5223D791600186885 /* YBTextPicker_3.gif */; };
+		32029EC9223D791700186885 /* YBTextPicker_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC6223D791700186885 /* YBTextPicker_1.gif */; };
+		32043657223AC7A90043C1A6 /* YBTextPickerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32043656223AC7A90043C1A6 /* YBTextPickerDataModel.swift */; };
+		32894727223C12C200312E83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32894726223C12C200312E83 /* README.md */; };
+		32894729223C12DE00312E83 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 32894728223C12DE00312E83 /* LICENCE */; };
+		6B9387A2212B223A00E4C737 /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9387A0212B223900E4C737 /* UIColor+HexString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		0807D70B20E8EC0E0052CFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0807D70E20E8EC0E0052CFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0807D71020E8EC0E0052CFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0807D71A20E8ED160052CFEA /* YBTextPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBTextPicker.swift; sourceTree = "<group>"; };
+		0807D71B20E8ED160052CFEA /* YBTextPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YBTextPicker.xib; sourceTree = "<group>"; };
+		0807D71F20E8F0200052CFEA /* YBTextPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBTextPickerCell.swift; sourceTree = "<group>"; };
+		0807D72020E8F0200052CFEA /* YBTextPickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YBTextPickerCell.xib; sourceTree = "<group>"; };
+		0807D73C20E91D980052CFEA /* YBTextPicker_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_unchecked.png; sourceTree = "<group>"; };
+		0807D74120E925630052CFEA /* YBTextPicker_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_checked.png; sourceTree = "<group>"; };
+		32029EC2223D791000186885 /* YBTextPicker_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_Logo.png; sourceTree = "<group>"; };
+		32029EC4223D791600186885 /* YBTextPicker_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_2.gif; sourceTree = "<group>"; };
+		32029EC5223D791600186885 /* YBTextPicker_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_3.gif; sourceTree = "<group>"; };
+		32029EC6223D791700186885 /* YBTextPicker_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_1.gif; sourceTree = "<group>"; };
+		32043656223AC7A90043C1A6 /* YBTextPickerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBTextPickerDataModel.swift; sourceTree = "<group>"; };
+		32894726223C12C200312E83 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32894728223C12DE00312E83 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		6B9387A0212B223900E4C737 /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,8 @@
 		0807D6F820E8EC0B0052CFEA = {
 			isa = PBXGroup;
 			children = (
+				32894728223C12DE00312E83 /* LICENCE */,
+				32894726223C12C200312E83 /* README.md */,
 				0807D70320E8EC0C0052CFEA /* YBTextPicker */,
 				0807D70220E8EC0C0052CFEA /* Products */,
 			);
@@ -54,14 +84,58 @@
 		0807D70320E8EC0C0052CFEA /* YBTextPicker */ = {
 			isa = PBXGroup;
 			children = (
+				321708FB223B524500B7C667 /* Images */,
+				0807D71620E8EC200052CFEA /* YBTextPicker */,
 				0807D70420E8EC0C0052CFEA /* AppDelegate.swift */,
 				0807D70620E8EC0C0052CFEA /* ViewController.swift */,
 				0807D70820E8EC0C0052CFEA /* Main.storyboard */,
+				6B9387A0212B223900E4C737 /* UIColor+HexString.swift */,
 				0807D70B20E8EC0E0052CFEA /* Assets.xcassets */,
 				0807D70D20E8EC0E0052CFEA /* LaunchScreen.storyboard */,
 				0807D71020E8EC0E0052CFEA /* Info.plist */,
 			);
 			path = YBTextPicker;
+			sourceTree = "<group>";
+		};
+		0807D71620E8EC200052CFEA /* YBTextPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0807D71720E8EC2D0052CFEA /* Assets */,
+				0807D71E20E8EFFF0052CFEA /* YBTextPickerCell */,
+				0807D71A20E8ED160052CFEA /* YBTextPicker.swift */,
+				0807D71B20E8ED160052CFEA /* YBTextPicker.xib */,
+				32043656223AC7A90043C1A6 /* YBTextPickerDataModel.swift */,
+			);
+			path = YBTextPicker;
+			sourceTree = "<group>";
+		};
+		0807D71720E8EC2D0052CFEA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0807D74120E925630052CFEA /* YBTextPicker_checked.png */,
+				0807D73C20E91D980052CFEA /* YBTextPicker_unchecked.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0807D71E20E8EFFF0052CFEA /* YBTextPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				0807D71F20E8F0200052CFEA /* YBTextPickerCell.swift */,
+				0807D72020E8F0200052CFEA /* YBTextPickerCell.xib */,
+			);
+			path = YBTextPickerCell;
+			sourceTree = "<group>";
+		};
+		321708FB223B524500B7C667 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				32029EC2223D791000186885 /* YBTextPicker_Logo.png */,
+				32029EC6223D791700186885 /* YBTextPicker_1.gif */,
+				32029EC4223D791600186885 /* YBTextPicker_2.gif */,
+				32029EC5223D791600186885 /* YBTextPicker_3.gif */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +196,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32029EC8223D791700186885 /* YBTextPicker_3.gif in Resources */,
+				32029EC7223D791700186885 /* YBTextPicker_2.gif in Resources */,
+				32894729223C12DE00312E83 /* LICENCE in Resources */,
 				0807D70F20E8EC0E0052CFEA /* LaunchScreen.storyboard in Resources */,
+				32029EC9223D791700186885 /* YBTextPicker_1.gif in Resources */,
 				0807D70C20E8EC0E0052CFEA /* Assets.xcassets in Resources */,
+				0807D72220E8F0200052CFEA /* YBTextPickerCell.xib in Resources */,
+				0807D74220E925630052CFEA /* YBTextPicker_checked.png in Resources */,
 				0807D70A20E8EC0C0052CFEA /* Main.storyboard in Resources */,
+				32029EC3223D791100186885 /* YBTextPicker_Logo.png in Resources */,
+				0807D71D20E8ED160052CFEA /* YBTextPicker.xib in Resources */,
+				32894727223C12C200312E83 /* README.md in Resources */,
+				0807D73E20E91D980052CFEA /* YBTextPicker_unchecked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9387A2212B223A00E4C737 /* UIColor+HexString.swift in Sources */,
 				0807D70720E8EC0C0052CFEA /* ViewController.swift in Sources */,
+				32043657223AC7A90043C1A6 /* YBTextPickerDataModel.swift in Sources */,
 				0807D70520E8EC0C0052CFEA /* AppDelegate.swift in Sources */,
+				0807D71C20E8ED160052CFEA /* YBTextPicker.swift in Sources */,
+				0807D72120E8F0200052CFEA /* YBTextPickerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69AXYX9773;
 				INFOPLIST_FILE = YBTextPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,7 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yahya.YBTextPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -298,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69AXYX9773;
 				INFOPLIST_FILE = YBTextPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +395,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yahya.YBTextPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

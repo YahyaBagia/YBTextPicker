@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,113 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YBTextPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0w-tO-tmk">
+                                <rect key="frame" x="16" y="20" width="288" height="136"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YBTextPicker_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qr4-T5-Bug">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="136"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="136" id="BOg-ce-OuH"/>
+                                            <constraint firstAttribute="width" constant="288" id="sgr-9P-pPF"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Qr4-T5-Bug" firstAttribute="centerX" secondItem="I0w-tO-tmk" secondAttribute="centerX" id="PY1-kU-zWP"/>
+                                    <constraint firstItem="Qr4-T5-Bug" firstAttribute="centerY" secondItem="I0w-tO-tmk" secondAttribute="centerY" id="r4x-vN-h1k"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZo-bL-1mf">
+                                <rect key="frame" x="16" y="164" width="288" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7R8-nM-Pmi">
+                                        <rect key="frame" x="0.0" y="34" width="288" height="39"/>
+                                        <color key="backgroundColor" red="0.30980392156862746" green="0.6705882352941176" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="0LD-aZ-AJ8"/>
+                                            <constraint firstAttribute="width" constant="288" id="DBC-er-7kq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="Select Countries">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openPickerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HkD-Nz-1vy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0t-ae-IXh">
+                                        <rect key="frame" x="0.0" y="100" width="288" height="39"/>
+                                        <color key="backgroundColor" red="0.49019607840000001" green="0.27450980390000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="047-Gn-BzI"/>
+                                            <constraint firstAttribute="width" constant="288" id="pl6-ah-cDP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="Pick a theme">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openThemePickerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HC0-ST-bQs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9Q-LD-3DB">
+                                        <rect key="frame" x="0.0" y="168" width="288" height="39"/>
+                                        <color key="backgroundColor" red="0.92941176470588238" green="0.27450980392156865" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="288" id="DBn-lv-nUf"/>
+                                            <constraint firstAttribute="height" constant="39" id="cHp-1h-d6M"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="What's your gender?">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openGenderPickerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wa3-o3-jKG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="0uz-56-4Zi"/>
+                                    <constraint firstItem="o9Q-LD-3DB" firstAttribute="top" secondItem="O0t-ae-IXh" secondAttribute="bottom" constant="29" id="38M-Yy-yBU"/>
+                                    <constraint firstItem="O0t-ae-IXh" firstAttribute="top" secondItem="7R8-nM-Pmi" secondAttribute="bottom" constant="27" id="AIP-pz-dXE"/>
+                                    <constraint firstItem="7R8-nM-Pmi" firstAttribute="centerX" secondItem="bZo-bL-1mf" secondAttribute="centerX" id="GPP-14-bps"/>
+                                    <constraint firstItem="7R8-nM-Pmi" firstAttribute="top" secondItem="bZo-bL-1mf" secondAttribute="top" constant="34" id="RQf-4o-qbx"/>
+                                    <constraint firstItem="o9Q-LD-3DB" firstAttribute="centerX" secondItem="bZo-bL-1mf" secondAttribute="centerX" id="TdI-V7-7BZ"/>
+                                    <constraint firstItem="O0t-ae-IXh" firstAttribute="centerX" secondItem="bZo-bL-1mf" secondAttribute="centerX" id="q2g-Ky-BA7"/>
+                                    <constraint firstAttribute="width" constant="288" id="ujN-Ry-8vC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I0w-tO-tmk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KgK-tq-PN0"/>
+                            <constraint firstItem="bZo-bL-1mf" firstAttribute="top" secondItem="I0w-tO-tmk" secondAttribute="bottom" constant="8" id="Wig-LE-uT1"/>
+                            <constraint firstItem="bZo-bL-1mf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i6m-hg-kb5"/>
+                            <constraint firstItem="I0w-tO-tmk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="k7T-vn-T6Z"/>
+                            <constraint firstItem="bZo-bL-1mf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="smw-Ds-Hf1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I0w-tO-tmk" secondAttribute="trailing" constant="16" id="y2u-Dd-9dZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnCountyPicker" destination="7R8-nM-Pmi" id="L5F-4t-krO"/>
+                        <outlet property="btnGenderPicker" destination="o9Q-LD-3DB" id="G95-VH-8GS"/>
+                        <outlet property="btnThemePicker" destination="O0t-ae-IXh" id="wLs-1n-Y05"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="114.375" y="118.30985915492958"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="YBTextPicker_Logo.png" width="3997" height="1024"/>
+    </resources>
 </document>
