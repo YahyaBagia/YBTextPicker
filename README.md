@@ -4,11 +4,8 @@ Yet another text picker / selector written in swift 4.2.
 ![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_Logo.png)
 
 ### Screenshots
-|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_1.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_2.gif)|
-| ------------- |  -------------: |
-
-|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_3.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_4.gif)|
-| ------------- |  -------------: |
+|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_1.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_2.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_3.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_4.gif)|
+| ------------- | ------------- | ------------- | -------------: |
 
 ### Installation
 Drag and Drop YBTextPicker Directory into your XCode Project Directory.
