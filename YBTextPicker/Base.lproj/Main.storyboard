@@ -38,43 +38,46 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZo-bL-1mf">
                                 <rect key="frame" x="16" y="164" width="288" height="240"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7R8-nM-Pmi">
-                                        <rect key="frame" x="0.0" y="34" width="288" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgo-DY-We9">
+                                        <rect key="frame" x="0.0" y="8" width="288" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.011764705882352941" green="0.47450980392156861" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="Select Fruits">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openFruitsPickerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYY-a1-cT3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7R8-nM-Pmi">
+                                        <rect key="frame" x="0.0" y="70" width="288" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.30980392156862746" green="0.6705882352941176" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="0LD-aZ-AJ8"/>
-                                            <constraint firstAttribute="width" constant="288" id="DBC-er-7kq"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <state key="normal" title="Select Countries">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="openPickerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HkD-Nz-1vy"/>
+                                            <action selector="openCountriesPickerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Od-nT-zEb"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0t-ae-IXh">
-                                        <rect key="frame" x="0.0" y="100" width="288" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0t-ae-IXh">
+                                        <rect key="frame" x="0.0" y="131" width="288" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.49019607840000001" green="0.27450980390000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="047-Gn-BzI"/>
-                                            <constraint firstAttribute="width" constant="288" id="pl6-ah-cDP"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                        <state key="normal" title="Pick a theme">
+                                        <state key="normal" title="Pick a Theme">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="openThemePickerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HC0-ST-bQs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9Q-LD-3DB">
-                                        <rect key="frame" x="0.0" y="168" width="288" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9Q-LD-3DB">
+                                        <rect key="frame" x="0.0" y="193" width="288" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.92941176470588238" green="0.27450980392156865" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="288" id="DBn-lv-nUf"/>
-                                            <constraint firstAttribute="height" constant="39" id="cHp-1h-d6M"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <state key="normal" title="What's your gender?">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -87,12 +90,6 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="0uz-56-4Zi"/>
-                                    <constraint firstItem="o9Q-LD-3DB" firstAttribute="top" secondItem="O0t-ae-IXh" secondAttribute="bottom" constant="29" id="38M-Yy-yBU"/>
-                                    <constraint firstItem="O0t-ae-IXh" firstAttribute="top" secondItem="7R8-nM-Pmi" secondAttribute="bottom" constant="27" id="AIP-pz-dXE"/>
-                                    <constraint firstItem="7R8-nM-Pmi" firstAttribute="centerX" secondItem="bZo-bL-1mf" secondAttribute="centerX" id="GPP-14-bps"/>
-                                    <constraint firstItem="7R8-nM-Pmi" firstAttribute="top" secondItem="bZo-bL-1mf" secondAttribute="top" constant="34" id="RQf-4o-qbx"/>
-                                    <constraint firstItem="o9Q-LD-3DB" firstAttribute="centerX" secondItem="bZo-bL-1mf" secondAttribute="centerX" id="TdI-V7-7BZ"/>
-                                    <constraint firstItem="O0t-ae-IXh" firstAttribute="centerX" secondItem="bZo-bL-1mf" secondAttribute="centerX" id="q2g-Ky-BA7"/>
                                     <constraint firstAttribute="width" constant="288" id="ujN-Ry-8vC"/>
                                 </constraints>
                             </view>
@@ -110,8 +107,9 @@
                     </view>
                     <connections>
                         <outlet property="btnCountyPicker" destination="7R8-nM-Pmi" id="L5F-4t-krO"/>
+                        <outlet property="btnFruitsPicker" destination="zgo-DY-We9" id="KaC-d8-cuK"/>
                         <outlet property="btnGenderPicker" destination="o9Q-LD-3DB" id="G95-VH-8GS"/>
-                        <outlet property="btnThemePicker" destination="O0t-ae-IXh" id="wLs-1n-Y05"/>
+                        <outlet property="btnThemePicker" destination="O0t-ae-IXh" id="TdR-DU-qUZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

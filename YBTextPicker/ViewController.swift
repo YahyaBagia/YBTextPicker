@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var regularFont = UIFont()
     var boldFont = UIFont()
     
+    @IBOutlet weak var btnFruitsPicker: UIButton!
     @IBOutlet weak var btnCountyPicker: UIButton!
     @IBOutlet weak var btnThemePicker: UIButton!
     @IBOutlet weak var btnGenderPicker: UIButton!
@@ -26,8 +27,62 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    @IBAction func openFruitsPickerAction(_ sender:UIButton) {
+        let blueColor = sender.backgroundColor
+        
+        let blueAppearance = YBTextPickerAppearanceManager.init(
+            pickerTitle         : "Select Fruits",
+            titleFont           : boldFont,
+            titleTextColor      : .black,
+            titleBackground     : .clear,
+            searchBarFont       : regularFont,
+            searchBarPlaceholder: "Search Fruits",
+            closeButtonTitle    : "Cancel",
+            closeButtonColor    : .darkGray,
+            closeButtonFont     : regularFont,
+            doneButtonTitle     : "Done",
+            doneButtonColor     : blueColor,
+            doneButtonFont      : boldFont,
+            checkMarkPosition   : .Right,
+            itemCheckedImage    : UIImage(named:"blue_ic_checked"),
+            itemUncheckedImage  : UIImage(),
+            itemColor           : .black,
+            itemFont            : regularFont
+        )
+        
+        let fruits = ["Cherry", "Apricots", "Banana", "Blueberry", "Orange", "Apple", "Grapes", "Guava", "Mango", "Cherries", "Damson", "Grapefruit", "Pluot", "Plums", "Kiwi", "Peach", "Pear", "Pomegranate", "Starfruit", "Watermelon", "Pineapples"]
+        let picker = YBTextPicker.init(with: fruits, appearance: blueAppearance,
+                                       onCompletion: { (selectedIndexes, selectedValues) in
+                                        if selectedValues.count > 0{
+                                            
+                                            var values = [String]()
+                                            for index in selectedIndexes{
+                                                values.append(fruits[index])
+                                            }
+                                            
+                                            self.btnFruitsPicker.setTitle(values.joined(separator: ", "), for: .normal)
+                                            
+                                        }else{
+                                            self.btnFruitsPicker.setTitle("Select Fruits", for: .normal)
+                                        }
+        },
+                                       onCancel: {
+                                        print("Cancelled")
+        }
+        )
+        
+        if let title = btnFruitsPicker.title(for: .normal){
+            if title.contains(","){
+                picker.preSelectedValues = title.components(separatedBy: ", ")
+            }
+        }
+        picker.allowMultipleSelection = true
+        
+        picker.show(withAnimation: .Fade)
+    }
 
-    @IBAction func openPickerAction(_ sender: UIButton) {
+    @IBAction func openCountriesPickerAction(_ sender: UIButton) {
         let greenColor = sender.backgroundColor
         
         let greenAppearance = YBTextPickerAppearanceManager.init(
@@ -63,7 +118,7 @@ class ViewController: UIViewController {
                     self.btnCountyPicker.setTitle(values.joined(separator: ", "), for: .normal)
                     
                 }else{
-                    self.btnCountyPicker.setTitle("Select countries", for: .normal)
+                    self.btnCountyPicker.setTitle("Select Countries", for: .normal)
                 }
             },
             onCancel: {
