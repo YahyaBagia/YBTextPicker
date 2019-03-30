@@ -12,54 +12,56 @@ Drag and Drop YBTextPicker Directory into your XCode Project Directory.
 
 ### Usage
 ```
-let greenAppearance = YBTextPickerAppearanceManager.init(
-pickerTitle         : "Select Countries",
-titleFont           : boldFont,
-titleTextColor      : .white,
-titleBackground     : greenColor,
-searchBarFont       : regularFont,
-searchBarPlaceholder: "Search Countries",
-closeButtonTitle    : "Cancel",
-closeButtonColor    : .darkGray,
-closeButtonFont     : regularFont,
-doneButtonTitle     : "Okay",
-doneButtonColor     : greenColor,
-doneButtonFont      : boldFont,
-checkMarkPosition   : .Left,
-itemCheckedImage    : UIImage(named:"green_ic_checked"),
-itemUncheckedImage  : UIImage(named:"green_ic_unchecked"),
-itemColor           : .black,
-itemFont            : regularFont
+let regularFont = UIFont.systemFont(ofSize: 16)
+let boldFont = UIFont.boldSystemFont(ofSize: 16)
+let blueColor = sender.backgroundColor
+        
+let blueAppearance = YBTextPickerAppearanceManager.init(
+    pickerTitle         : "Select Fruits",
+    titleFont           : boldFont,
+    titleTextColor      : .black,
+    titleBackground     : .clear,
+    searchBarFont       : regularFont,
+    searchBarPlaceholder: "Search Fruits",
+    closeButtonTitle    : "Cancel",
+    closeButtonColor    : .darkGray,
+    closeButtonFont     : regularFont,
+    doneButtonTitle     : "Done",
+    doneButtonColor     : blueColor,
+    doneButtonFont      : boldFont,
+    checkMarkPosition   : .Right,
+    itemCheckedImage    : UIImage(named:"blue_ic_checked"),
+    itemUncheckedImage  : UIImage(),
+    itemColor           : .black,
+    itemFont            : regularFont
 )
 
-let countries = ["India", "Bangladesh", "Sri-Lanka", "Japan", "United States", "United Kingdom", "United Arab Emirates", "Egypt", "France", "Russia", "Poland", "Australia", "New Zealand", "Saudi Arabia", "South Africa", "Somalia", "Turkey", "Ukraine"]
-
-let picker = YBTextPicker.init(with: countries, appearance: greenAppearance,
-onCompletion: { (selectedIndexes, selectedValues) in
-if selectedValues.count > 0{
-
-var values = [String]()
-for index in selectedIndexes{
-values.append(countries[index])
-}
-
-self.btnCountyPicker.setTitle(values.joined(separator: ", "), for: .normal)
-
-}else{
-self.btnCountyPicker.setTitle("Select countries", for: .normal)
-}
+let fruits = ["Cherry", "Apricots", "Banana", "Blueberry", "Orange", "Apple", "Grapes", "Guava", "Mango", "Cherries", "Damson", "Grapefruit", "Pluot", "Plums", "Kiwi", "Peach", "Pear", "Pomegranate", "Starfruit", "Watermelon", "Pineapples"]
+let picker = YBTextPicker.init(with: fruits, appearance: blueAppearance,
+                                onCompletion: { (selectedIndexes, selectedValues) in
+                                if selectedValues.count > 0{
+                                    
+                                    var values = [String]()
+                                    for index in selectedIndexes{
+                                        values.append(fruits[index])
+                                    }
+                                    
+                                    self.btnFruitsPicker.setTitle(values.joined(separator: ", "), for: .normal)
+                                    
+                                }else{
+                                    self.btnFruitsPicker.setTitle("Select Fruits", for: .normal)
+                                }
 },
-onCancel: {
-print("Cancelled")
+                                onCancel: {
+                                print("Cancelled")
 }
 )
 
-if let title = btnCountyPicker.title(for: .normal){
-if title.contains(","){
-picker.preSelectedValues = title.components(separatedBy: ", ")
+if let title = btnFruitsPicker.title(for: .normal){
+    if title.contains(","){
+        picker.preSelectedValues = title.components(separatedBy: ", ")
+    }
 }
-}
-
 picker.allowMultipleSelection = true
 
 picker.show(withAnimation: .Fade)

@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var regularFont = UIFont()
-    var boldFont = UIFont()
+    let regularFont = UIFont.systemFont(ofSize: 16)
+    let boldFont = UIFont.boldSystemFont(ofSize: 16)
     
     @IBOutlet weak var btnFruitsPicker: UIButton!
     @IBOutlet weak var btnCountyPicker: UIButton!
@@ -20,8 +20,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        regularFont = UIFont.systemFont(ofSize: 16)
-        boldFont = UIFont.boldSystemFont(ofSize: 16)
     }
 
     override func didReceiveMemoryWarning() {

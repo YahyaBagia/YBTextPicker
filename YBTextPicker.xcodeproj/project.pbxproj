@@ -19,18 +19,18 @@
 		0807D73E20E91D980052CFEA /* YBTextPicker_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0807D73C20E91D980052CFEA /* YBTextPicker_unchecked.png */; };
 		0807D74220E925630052CFEA /* YBTextPicker_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0807D74120E925630052CFEA /* YBTextPicker_checked.png */; };
 		32029EC3223D791100186885 /* YBTextPicker_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC2223D791000186885 /* YBTextPicker_Logo.png */; };
-		32029EC7223D791700186885 /* YBTextPicker_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC4223D791600186885 /* YBTextPicker_2.gif */; };
-		32029EC8223D791700186885 /* YBTextPicker_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC5223D791600186885 /* YBTextPicker_3.gif */; };
-		32029EC9223D791700186885 /* YBTextPicker_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32029EC6223D791700186885 /* YBTextPicker_1.gif */; };
 		32029ECB223D855300186885 /* red_ic_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ECA223D855300186885 /* red_ic_unchecked.png */; };
 		32029ECD223D855C00186885 /* red_ic_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ECC223D855C00186885 /* red_ic_checked.png */; };
 		32029ECF223D858200186885 /* green_ic_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ECE223D858200186885 /* green_ic_checked.png */; };
 		32029ED1223D859500186885 /* green_ic_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32029ED0223D859500186885 /* green_ic_unchecked.png */; };
 		32043657223AC7A90043C1A6 /* YBTextPickerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32043656223AC7A90043C1A6 /* YBTextPickerDataModel.swift */; };
+		3282904F224FF8AC003B3BF2 /* YBTextPicker_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3282904B224FF8AB003B3BF2 /* YBTextPicker_1.gif */; };
+		32829050224FF8AC003B3BF2 /* YBTextPicker_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3282904C224FF8AC003B3BF2 /* YBTextPicker_3.gif */; };
+		32829051224FF8AC003B3BF2 /* YBTextPicker_4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3282904D224FF8AC003B3BF2 /* YBTextPicker_4.gif */; };
+		32829052224FF8AC003B3BF2 /* YBTextPicker_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3282904E224FF8AC003B3BF2 /* YBTextPicker_2.gif */; };
 		32894727223C12C200312E83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32894726223C12C200312E83 /* README.md */; };
 		32894729223C12DE00312E83 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 32894728223C12DE00312E83 /* LICENCE */; };
 		32F91C5C224413BF002867DB /* blue_ic_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F91C5B224413BF002867DB /* blue_ic_checked.png */; };
-		32F91C5E22441E37002867DB /* YBTextPicker_4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32F91C5D22441E36002867DB /* YBTextPicker_4.gif */; };
 		6B9387A2212B223A00E4C737 /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9387A0212B223900E4C737 /* UIColor+HexString.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,18 +49,18 @@
 		0807D73C20E91D980052CFEA /* YBTextPicker_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_unchecked.png; sourceTree = "<group>"; };
 		0807D74120E925630052CFEA /* YBTextPicker_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_checked.png; sourceTree = "<group>"; };
 		32029EC2223D791000186885 /* YBTextPicker_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_Logo.png; sourceTree = "<group>"; };
-		32029EC4223D791600186885 /* YBTextPicker_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_2.gif; sourceTree = "<group>"; };
-		32029EC5223D791600186885 /* YBTextPicker_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_3.gif; sourceTree = "<group>"; };
-		32029EC6223D791700186885 /* YBTextPicker_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_1.gif; sourceTree = "<group>"; };
 		32029ECA223D855300186885 /* red_ic_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_ic_unchecked.png; sourceTree = "<group>"; };
 		32029ECC223D855C00186885 /* red_ic_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_ic_checked.png; sourceTree = "<group>"; };
 		32029ECE223D858200186885 /* green_ic_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_ic_checked.png; sourceTree = "<group>"; };
 		32029ED0223D859500186885 /* green_ic_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_ic_unchecked.png; sourceTree = "<group>"; };
 		32043656223AC7A90043C1A6 /* YBTextPickerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBTextPickerDataModel.swift; sourceTree = "<group>"; };
+		3282904B224FF8AB003B3BF2 /* YBTextPicker_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_1.gif; sourceTree = "<group>"; };
+		3282904C224FF8AC003B3BF2 /* YBTextPicker_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_3.gif; sourceTree = "<group>"; };
+		3282904D224FF8AC003B3BF2 /* YBTextPicker_4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_4.gif; sourceTree = "<group>"; };
+		3282904E224FF8AC003B3BF2 /* YBTextPicker_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_2.gif; sourceTree = "<group>"; };
 		32894726223C12C200312E83 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32894728223C12DE00312E83 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 		32F91C5B224413BF002867DB /* blue_ic_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_ic_checked.png; sourceTree = "<group>"; };
-		32F91C5D22441E36002867DB /* YBTextPicker_4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YBTextPicker_4.gif; sourceTree = "<group>"; };
 		6B9387A0212B223900E4C737 /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,10 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				32029EC2223D791000186885 /* YBTextPicker_Logo.png */,
-				32029EC6223D791700186885 /* YBTextPicker_1.gif */,
-				32029EC4223D791600186885 /* YBTextPicker_2.gif */,
-				32029EC5223D791600186885 /* YBTextPicker_3.gif */,
-				32F91C5D22441E36002867DB /* YBTextPicker_4.gif */,
+				3282904B224FF8AB003B3BF2 /* YBTextPicker_1.gif */,
+				3282904E224FF8AC003B3BF2 /* YBTextPicker_2.gif */,
+				3282904C224FF8AC003B3BF2 /* YBTextPicker_3.gif */,
+				3282904D224FF8AC003B3BF2 /* YBTextPicker_4.gif */,
 				32F91C5B224413BF002867DB /* blue_ic_checked.png */,
 				32029ECE223D858200186885 /* green_ic_checked.png */,
 				32029ED0223D859500186885 /* green_ic_unchecked.png */,
@@ -214,20 +214,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32029EC8223D791700186885 /* YBTextPicker_3.gif in Resources */,
-				32029EC7223D791700186885 /* YBTextPicker_2.gif in Resources */,
+				32829052224FF8AC003B3BF2 /* YBTextPicker_2.gif in Resources */,
 				32894729223C12DE00312E83 /* LICENCE in Resources */,
 				0807D70F20E8EC0E0052CFEA /* LaunchScreen.storyboard in Resources */,
-				32029EC9223D791700186885 /* YBTextPicker_1.gif in Resources */,
-				32F91C5E22441E37002867DB /* YBTextPicker_4.gif in Resources */,
 				32F91C5C224413BF002867DB /* blue_ic_checked.png in Resources */,
+				32829051224FF8AC003B3BF2 /* YBTextPicker_4.gif in Resources */,
 				32029ECD223D855C00186885 /* red_ic_checked.png in Resources */,
+				3282904F224FF8AC003B3BF2 /* YBTextPicker_1.gif in Resources */,
 				0807D70C20E8EC0E0052CFEA /* Assets.xcassets in Resources */,
 				0807D72220E8F0200052CFEA /* YBTextPickerCell.xib in Resources */,
 				0807D74220E925630052CFEA /* YBTextPicker_checked.png in Resources */,
 				32029ECF223D858200186885 /* green_ic_checked.png in Resources */,
 				0807D70A20E8EC0C0052CFEA /* Main.storyboard in Resources */,
 				32029EC3223D791100186885 /* YBTextPicker_Logo.png in Resources */,
+				32829050224FF8AC003B3BF2 /* YBTextPicker_3.gif in Resources */,
 				0807D71D20E8ED160052CFEA /* YBTextPicker.xib in Resources */,
 				32894727223C12C200312E83 /* README.md in Resources */,
 				32029ECB223D855300186885 /* red_ic_unchecked.png in Resources */,
