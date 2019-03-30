@@ -4,7 +4,7 @@ Yet another text picker / selector written in swift 4.2.
 ![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_Logo.png)
 
 ### Screenshots
-|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_1.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_2.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_3.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker_4.gif)|
+|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker1.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker2.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker3.gif)|![](https://github.com/YahyaBagia/YBTextPicker/blob/master/YBTextPicker/Images/YBTextPicker4.gif)|
 | ------------- | ------------- | ------------- | -------------: |
 
 ### Installation
